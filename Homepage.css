@@ -56,7 +56,7 @@ nav {
 main {
   width: 100%;
   border: 1px solid;
-  padding: 50px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +67,7 @@ main {
 
 #main-title {
   font-size: 2.5rem;
+  font-family: "Indie Flower";
 }
 
 #main-text {
