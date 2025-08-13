@@ -295,4 +295,16 @@ main {
     padding: 15px;
     background-color: lightgray;
   }
+
+  #work-title {
+    text-align: center;
+  }
+
+  #roadmap-title {
+    border-top: 1px solid black;
+  }
+
+  #about-container-top {
+    padding: 0;
+  }
 }
