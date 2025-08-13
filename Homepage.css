@@ -275,7 +275,7 @@ main {
 
   #projects-container {
     text-align: center;
-    gap: 15px;
+    gap: 0px;
     padding: 0px;
   }
 
@@ -287,11 +287,12 @@ main {
   }
 
   #projects-list {
-    gap: 20px;
+    gap: 0px;
   }
 
   .projects-item {
     border-bottom: 1px solid black;
-    padding: 10px;
+    padding: 15px;
+    background-color: lightgray;
   }
 }
