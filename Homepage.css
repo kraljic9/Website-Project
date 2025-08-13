@@ -232,3 +232,66 @@ main {
 .review-bottom {
   color: rgb(127, 126, 126);
 }
+
+/* Media querry */
+
+@media (max-width: 1024px) {
+  /* Navigation layout */
+
+  nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .logo-container {
+    flex-direction: column;
+  }
+
+  .links-container {
+    justify-content: center;
+  }
+
+  /* Header layout */
+
+  header {
+    padding: 50px;
+    display: flex;
+  }
+
+  /* Header items */
+
+  #header-title {
+    font-size: 3rem;
+    font-family: "Indie Flower";
+  }
+
+  /* Main layout */
+
+  main {
+    flex-direction: column;
+  }
+
+  /* Projects layout */
+
+  #projects-container {
+    text-align: center;
+    gap: 15px;
+    padding: 0px;
+  }
+
+  /* Projects items */
+
+  #projects-title {
+    border-bottom: 1px solid black;
+    padding: 20px;
+  }
+
+  #projects-list {
+    gap: 20px;
+  }
+
+  .projects-item {
+    border-bottom: 1px solid black;
+    padding: 10px;
+  }
+}
