@@ -8,7 +8,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   border: 1px solid black;
-  height: 100vh;
+  height: 160vh;
   font-size: 1rem;
 }
 
@@ -25,6 +25,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 20px;
 }
 
 .links-container {
@@ -51,9 +52,9 @@ nav {
   text-decoration: none;
 }
 
-/* Main layout */
+/* Header layout */
 
-main {
+header {
   width: 100%;
   border: 1px solid;
   padding: 100px;
@@ -63,13 +64,177 @@ main {
   gap: 5px;
 }
 
-/* Main items */
+/* Header items */
 
-#main-title {
+#header-title {
   font-size: 2.5rem;
   font-family: "Indie Flower";
 }
 
-#main-text {
+#header-text {
   color: grey;
+}
+
+/* Main layout */
+main {
+  width: 100%;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Projects layout */
+
+#projects-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid;
+  padding: 20px;
+}
+
+/* Projects items */
+
+#projects-title {
+  font-family: "Indie Flower";
+  font-size: 1.3rem;
+}
+
+#projects-list {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  columns: #333;
+}
+
+/* About section layout */
+
+#about-section {
+  flex: 1;
+  border: 1px solid;
+  padding: 20px;
+}
+
+#about-container-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid;
+  flex: 1;
+}
+
+#about-container-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid;
+  flex: 1;
+}
+
+#education-container {
+  flex: 1;
+  border: 1px solid;
+  padding: 20px;
+}
+
+/* About-container-top items */
+
+#work-title {
+  font-family: "Indie Flower";
+  font-size: 1.3rem;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Top and bottom container items */
+
+.work-type {
+  font-family: "Indie Flower";
+  font-weight: bold;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: rgb(24, 151, 255);
+}
+
+/* Education layout */
+
+#education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Education items */
+
+#education-title {
+  font-family: "Indie Flower";
+  font-size: 1.3rem;
+}
+
+#education-info {
+  margin-bottom: 20px;
+}
+
+#course-title {
+  font-weight: 100;
+}
+
+#courses-list {
+  padding-left: 20px;
+  list-style: none;
+}
+
+/* teacher-reviews layout */
+
+#teacher-reviews {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#review-box-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#copyright {
+  padding: 100px;
+  text-align: center;
+  border: 1px solid;
+}
+
+/* Teacher review item */
+
+#teacher-reviews-titles {
+  font-family: "Indie Flower";
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+.review-box {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-bottom {
+  color: rgb(127, 126, 126);
 }
