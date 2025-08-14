@@ -1,0 +1,134 @@
+/* Tablet */
+
+@media (max-width: 768px) {
+  /* Navigation layout */
+
+  nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .logo-container {
+    flex-direction: column;
+  }
+
+  .links-container {
+    justify-content: center;
+  }
+
+  /* Header layout */
+
+  header {
+    padding: 50px;
+    display: flex;
+  }
+
+  /* Header items */
+
+  #header-title {
+    font-size: 3rem;
+    font-family: "Indie Flower";
+  }
+
+  /* Main layout */
+
+  main {
+    flex-direction: column;
+  }
+
+  /* Projects layout */
+
+  #projects-container {
+    text-align: center;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  /* Projects items */
+
+  #projects-title {
+    border-bottom: 1px solid black;
+    padding: 20px;
+  }
+
+  #projects-list {
+    gap: 0px;
+  }
+
+  .projects-item {
+    border-bottom: 1px solid black;
+    padding: 15px;
+    background-color: lightgray;
+  }
+
+  #work-title {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #about-container-top {
+    padding: 0;
+  }
+
+  .about-text-container {
+    padding: 20px;
+    border-top: 1px solid;
+    background-color: lightgrey;
+  }
+
+  #about-container-bottom {
+    background-color: lightgrey;
+  }
+
+  /* education-container items */
+
+  #education-title {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* teacher-revies layout */
+
+  #teacher-reviews-titles {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #review-box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #copyright {
+    padding: 50px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+  /* Navigation layout */
+  nav {
+    justify-content: baseline;
+  }
+
+  .links-container {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 10%;
+  }
+
+  /* Header item*/
+
+  #header-title {
+    font-size: 1.7rem;
+  }
+
+  #header-text {
+    text-align: center;
+  }
+}
