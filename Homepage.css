@@ -239,7 +239,43 @@ main {
     background-color: black;
   }
 
+  #name {
+    color: white;
+  }
+
   .nav-link {
     color: white;
+  }
+
+  #header-title {
+    color: white;
+  }
+
+  .projects-item {
+    color: white;
+  }
+
+  .title-theme {
+    color: white;
+  }
+
+  #projects-container {
+    color: white;
+  }
+
+  #about-section {
+    color: white;
+  }
+
+  #education-container {
+    color: white;
+  }
+
+  #teacher-reviews {
+    color: white;
+  }
+
+  .review-box {
+    border: 1px solid white;
   }
 }
