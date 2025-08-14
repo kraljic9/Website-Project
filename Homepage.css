@@ -276,6 +276,6 @@ main {
   }
 
   .review-box {
-    border: 1px solid white;
+    border: 1px solid #ccc;
   }
 }
