@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media (max-width: 768px) {
+@media (max-width: 1240px) {
   /* Navigation layout */
 
   nav {
@@ -119,16 +119,50 @@
   }
 
   .nav-link {
-    padding: 10%;
+    font-size: 1.3rem;
   }
 
   /* Header item*/
 
   #header-title {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   #header-text {
     text-align: center;
+  }
+
+  /* Project items */
+
+  .title-theme {
+    font-size: 1.5rem;
+  }
+
+  .work-type {
+    font-size: 1.2rem;
+  }
+
+  .work-description {
+    font-size: 1.2rem;
+  }
+
+  .profile-link {
+    font-size: 1.2rem;
+  }
+
+  .education-text {
+    font-size: 1.2rem;
+  }
+
+  .course-item {
+    font-size: 1.2rem;
+  }
+
+  .review-box {
+    width: 300px;
+  }
+
+  .review-text {
+    font-size: 1.2rem;
   }
 }
