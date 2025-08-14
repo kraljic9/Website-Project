@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media (max-width: 1240px) {
+@media (max-width: 768px) {
   /* Navigation layout */
 
   nav {
@@ -206,7 +206,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) and (max-width: 1240px) and (min-width: 350px) {
+@media (prefers-color-scheme: dark) and (max-width: 768px) and (min-width: 350px) {
   #projects-container {
     border: 1px solid #ccc;
   }
@@ -274,11 +274,12 @@
 
   .about-text-container {
     background-color: grey;
+    border-bottom: 1px solid #ccc;
   }
 
   #about-container-bottom {
     background-color: grey;
-    border-bottom: none;
+    border-bottom: 1px solid;
   }
 
   #about-section {
