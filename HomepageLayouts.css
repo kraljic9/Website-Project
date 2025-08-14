@@ -166,3 +166,42 @@
     font-size: 1.2rem;
   }
 }
+
+/* Mobile S layout */
+@media (max-width: 350px) {
+  #header-title {
+    font-size: 1.5rem;
+  }
+
+  .title-theme {
+    font-size: 1.5rem;
+  }
+
+  .work-type {
+    font-size: 1rem;
+  }
+
+  .work-description {
+    font-size: 1rem;
+  }
+
+  .profile-link {
+    font-size: 1rem;
+  }
+
+  .education-text {
+    font-size: 1rem;
+  }
+
+  .course-item {
+    font-size: 1rem;
+  }
+
+  .review-box {
+    width: 300px;
+  }
+
+  .review-text {
+    font-size: 1rem;
+  }
+}

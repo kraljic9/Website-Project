@@ -15,6 +15,7 @@ body {
 nav {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   padding: 20px;
 }
 
@@ -101,7 +102,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  columns: #333;
 }
 
 /* About section layout */
@@ -230,4 +230,16 @@ main {
 
 .review-bottom {
   color: rgb(127, 126, 126);
+}
+
+/* Dark mode style */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+  }
+
+  .nav-link {
+    color: white;
+  }
 }
