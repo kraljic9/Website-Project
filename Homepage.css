@@ -298,13 +298,43 @@ main {
 
   #work-title {
     text-align: center;
-  }
-
-  #roadmap-title {
-    border-top: 1px solid black;
+    padding: 20px;
   }
 
   #about-container-top {
     padding: 0;
+  }
+
+  .about-text-container {
+    padding: 20px;
+    border-top: 1px solid;
+    background-color: lightgrey;
+  }
+
+  #about-container-bottom {
+    background-color: lightgrey;
+  }
+
+  /* education-container items */
+
+  #education-title {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* teacher-revies layout */
+
+  #teacher-reviews-titles {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #review-box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #copyright {
+    padding: 50px;
   }
 }
